@@ -1,0 +1,45 @@
+body
+{
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+}
+
+.member
+{
+    width: 25%;
+    position: relative;
+    text-align: center;
+    color: white;
+    border: solid 4px white;
+}
+
+.member img
+{
+    width: 100%;
+}
+
+.caption
+{
+    background-color: rgba(42,63,85,0.7);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+.caption p
+{
+    padding: 35px;
+    font-size: 20px;
+
+}
+
+.caption h2
+{
+    background-color:rgba(42,63,85) ;
+    padding: 10px;
+}

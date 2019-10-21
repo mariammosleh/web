@@ -1,0 +1,654 @@
+
+*
+{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.home
+{
+    background-image: url(img/slider/slider-01.jpg);
+    text-align: center;
+    color: #fff;
+    height: 620px;
+    background-size:cover ;
+    
+}
+
+.home .home-info
+{
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    padding: 200px  0px 0px;
+}
+
+.home h3
+{
+    font-weight: 600px;
+    margin: 0 0 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+}
+.home h1
+{
+    color: #ff305b;
+    font-size: 70px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.home h4
+{
+    font-weight: 300px;
+    margin: 0 0 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 26px;
+    border-right: solid 2px;
+
+
+}
+
+.home h4::after
+{
+    content: "Developer"    ;
+    transition: 1s transform;
+}
+
+.home:hover h4::after
+{
+transform: translate(200px opx);
+}
+
+
+.section4
+{
+    background-color: yellow;
+}
+
+.section4 .products
+{
+    overflow: auto;
+    margin: auto;
+    width: 95%;
+
+}
+
+
+.section4 .product
+{
+    width: 33.33%;
+    float: left;
+    position: relative;
+    margin-bottom: 15px;
+    padding: 0px 15px;
+    overflow: hidden;
+
+}
+
+.section4 img
+{
+    width: 100%;
+}
+
+
+.product:hover .portfolio-icons
+{
+    opacity: 1;
+}
+.section4 .portfolio-icons
+{
+    background-color: rgba(120, 128, 136, 0.5);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: #ff305b;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .5s  opacity;
+
+}
+
+.section4 i
+{
+    color:  #ff305b ;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+
+/*ليه هنا هديله ابسليوت ومين هياخد الريلاتيف*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.section5
+{
+    background: #f1f1f1;
+    color: #555555;
+}
+
+.section5 .container1
+{
+    overflow: auto;
+margin: auto;
+text-align: center;
+padding: 100px 0;
+
+width: 95%;
+
+
+}
+
+.section5 .container
+{
+    float: left;
+    width: 25%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+
+}
+
+.section5 .container-icon
+{
+    color:  #ff305b ;
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+
+.section5 .container-value h3
+{
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0 0 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+    line-height: 1.1;
+}
+
+.section5 .container-value h5
+{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+    line-height: 1.1;
+}
+
+
+
+
+
+
+.section6
+{
+    background-color: transparent;
+    padding: 100px 0px;
+    color: #555555;
+    
+}
+
+.section6 a
+{
+    color: #777777;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.section6 .client
+{
+    padding: 40px ;
+    width: 70%;
+    margin: auto;
+    background: #f1f1f1;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.section6  img
+{
+    border-radius: 50%;
+    position: absolute;
+    top: 45;
+    left: 40;
+}
+
+.section6 .clientinfo
+{
+    padding-left: 130px;
+}
+
+.section6 .clientinfo h3
+{
+    font-weight: 600;
+    margin: 0 0 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+}
+
+.section6 .feedback
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+}
+
+
+.section6 .feedback h2
+{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    position: relative;
+    text-transform: capitalize;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+}
+
+.section6 .triangle
+{
+    width: 200px;
+    height: 200px;
+    background-color: #ff305b;
+    position: absolute;
+    left: -110;
+    top:-100;
+    transform: rotate(45deg);
+}
+
+
+
+.section6 .feedback h2::before
+{
+    content: "";
+    border-color: #ff305b;
+    border-style: solid;
+    border-width: 1px 0;
+    position: absolute;
+    bottom: 0;
+    padding: 4px 0 5px;
+    width: 70px;
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+    /*ليه هنا بيظهر 2 بيفور في النتيجة بيظهر خطين يعني*/
+}
+
+.section6 .feedback h2::after
+{
+    background-color: #ff305b;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+
+
+
+}
+
+.section6 .clientinfo h4
+{
+font-weight: 600;
+    margin: 0 0 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+    font-size: 18px
+
+}
+.section6 .clientinfo p
+{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0 0 15px;
+    padding-right: 15px;
+}
+
+.section6 .clientinfo .rate
+{
+    color: #f1c30d;
+    margin-bottom: 12px;
+}
+
+
+
+.section6 .dot
+{
+    color: #ff305b;
+    padding: 4px 12px;
+    width: 70%;
+    margin:  5px auto;
+    text-align: center;
+}
+
+
+
+
+.section7
+{
+    overflow: auto;
+    padding: 100px 0 70px;
+    background-color: #f1f1f1;
+    
+}
+
+.section7 .blogtypes
+{
+    width: 33.333%;
+    float: left;
+    padding: 0px 15px;
+}
+
+.section7 img
+{
+    width: 100%;
+}
+
+.section7 iframe
+{
+    height: 221px;
+    width: 100%;
+}
+
+
+.section7 .blogtypes .post
+{
+    padding: 20px;
+    background: #ffffff;
+    color: #555555;
+}
+
+.section7 .blogtypes .post1
+{
+    margin-bottom: 10px;
+    color: #555555;
+    font-size: 16px;
+}
+
+.section7 a
+{
+    text-decoration: none;
+    color: #333;
+
+}
+
+.section7 h3
+{
+    font-weight: 500;
+    margin: 0 0 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333333;
+    font-size: 24px;
+}
+
+.section7 p
+{
+    margin-bottom: 15px;
+    color: #555555;
+    line-height: 20px;
+}
+
+.section7 .section7-blog
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+.section7 .section7-blog h2
+{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    position: relative;
+    text-transform: capitalize;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+}
+
+.section7 .section7-blog h2::before
+{
+    content: "";
+    border-color: #ff305b;
+    border-style: solid;
+    border-width: 1px 0;
+    position: absolute;
+    bottom: 0;
+    padding: 4px 0 5px;
+    width: 70px;
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+    /*ليه هنا بيظهر 2 بيفور في النتيجة بيظهر خطين يعني*/
+}
+.section7 .section7-blog h2::after
+{
+    background-color: #ff305b;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section8
+{
+    padding: 100px 0;
+}
+
+.section8-info
+{
+    padding: 0px 15px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.section8-info h2
+{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    margin: 0 0 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+    position: relative;
+}
+.section8-info h2::before
+{
+    content: "";
+    border-color: #ff305b;
+    border-style: solid;
+    border-width: 1px 0;
+    position: absolute;
+    bottom: 0;
+    padding: 4px 0 5px;
+    width: 70px;
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+    /*ليه هنا بيظهر 2 بيفور في النتيجة بيظهر خطين يعني*/
+}
+.section8-info h2::after
+{
+    background-color: #ff305b;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+}
+
+
+
+.section8-form
+{
+    width: 70%;
+    margin: auto;
+    overflow: auto;
+
+}
+.section8-form .info
+{
+    width: 50%;
+    
+   
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+
+
+
+}
+
+.section8-form .info .inp
+{
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+
+}
+
+.section8-form .raw 
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+
+}
+    
+
+
+
+.section8-form .raw .raw1
+{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    color: #555;
+    background-color: #fff;
+    font-size: 14px;
+    width: 100%;
+
+   
+
+}
+.section8-form .raw .btn
+{
+    width: 20%;
+    background-color: #ff305b;
+    border-color: #ff305b;
+    color: #ffffff;
+    opacity: 1;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+
+.section9
+{
+    background-color: gray;
+    text-align: center;
+    color: #fff;
+    background: #333333;
+    padding: 50px 0px;
+
+}
+
+.section9 ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 10px;
+    
+}
+
+.section9 ul i
+{
+color: white;
+}
+
+.section9 p
+{
+    margin-top: 10px;
+}
+
+.section9 p a
+{
+    text-decoration: none;
+    color: #ff305b;
+    
+
+}
+
+
