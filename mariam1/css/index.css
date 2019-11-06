@@ -1,0 +1,549 @@
+
+
+
+body
+{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+
+
+
+.navbar
+{
+   
+        font-weight: 600 !important;
+}
+.upper-bar
+{
+    background-image: url(../devfolio/intro-bg.jpg);
+    height: 700px;
+    background-size: cover;
+
+    
+}
+.bg-black
+{
+    background-color: black;
+}
+@media (max-width:900px)
+
+{
+ .upper-bar{background-size:100% 100%;}
+}
+
+header .overlay
+{
+    background-color: rgba(0, 0,0, 0.5);
+    height: 100%;
+
+}
+
+.font1
+{
+    font-size: 4.5rem;
+    font-weight: 600!important;
+}
+.font2
+{
+    font-size: 2rem;
+    font-weight: 600!important;
+}
+
+
+
+
+
+.about-me
+{
+    background-color: #f5f5f5;
+}
+.sec2
+{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #fff;
+
+}
+
+.about-me p .lead1
+{
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+}
+
+.about-me .lead
+{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4e4e4e;
+}
+
+
+.progress .progress-bar
+{
+    border: none !important;
+    height: .7rem;
+    background-color: #0078ff;
+}
+.progress
+{
+    height: .7rem;
+}
+
+
+.about-me .text1
+{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #4e4e4e;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.about-me h5
+{
+    font-size: 2rem;
+    position: relative;
+    margin-bottom: 20px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #1e1e1e;
+
+}
+
+.about-me h5::before
+{
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+
+}    
+
+
+
+
+.border-p
+{
+    background-color: #0078ff;
+   width: 100px;
+   height: 5px;
+    margin: auto;
+}
+
+.our-services h3
+{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1e1e1e;
+
+}
+
+.our-services
+{
+    background-color: #f5f5f5;
+
+}
+
+.our-services .service
+{
+    background-color: #fff;
+    text-align: center;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1)
+}
+
+.our-services i
+{
+     
+    border: 8px #0078ff solid;
+    border-radius:50% ;
+    padding: 20px;
+    font-weight: 600;
+    transition: all 500ms ease;
+}
+
+.our-services h2{
+
+margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.4rem;
+    padding: .4rem 0;
+
+}
+
+
+.our-services p{
+    color: #4e4e4e;
+    margin-bottom: 1rem;
+}
+
+.service:hover i
+{
+
+    background-color:#0078ff  ;
+    border: 8px #cde1f8 solid;
+color: #fff;
+
+}
+
+
+
+
+
+
+
+/*start statistics*/
+
+.statistics
+{
+    background-image: url(../devfolio/counters-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+
+}
+
+.overlay-stat
+{
+    
+    background-color:  #0078ff;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0;
+
+}
+
+.statistics .counter
+{
+display: block;
+color: #fff;
+font-weight: 400;
+    line-height: 1.5;
+    font-size: 30px;
+}
+
+.statistics i
+{
+    border-radius:50% ;
+
+    width: 70px;
+    height: 70px;
+    font-weight: 600;
+    border: 7px #fff solid;
+    color: #fff;
+    text-align: center;
+    line-height: 1.7;
+   
+    margin-bottom: 1rem;
+
+}
+
+.statistics p
+{
+    color: #fff;
+font-weight: 400;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+
+
+
+.portoflio h3
+{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1e1e1e;
+}
+
+.portoflio p
+{
+    color: #4e4e4e;
+    margin-bottom: 1rem;
+
+}
+
+.portoflio
+{
+    background-color: #f5f5f5;
+
+}
+
+.portoflio .por-work
+{
+    text-decoration-style: none;
+
+}
+
+.portoflio span 
+{
+    font-size: 16px;
+}
+
+.portoflio h2
+{
+    font-size: 1.2rem;
+    color: #1e1e1e;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.portoflio  .work-p
+{
+    color: #0078ff ;
+}
+
+.portoflio  .work-date
+{
+     color: #1e1e1e ;
+
+}
+
+.portoflio .por-work:hover a
+{
+    text-decoration: none;
+}
+
+
+.portoflio .port-work:hover img
+{
+    transform: scale(1.3);
+}
+
+
+.portoflio img
+{
+    transition: all 1s;
+    display: block;
+    width: 100%;
+    
+}
+
+.por-work .img-1
+{
+    overflow: hidden;
+}
+
+
+.work-info
+{
+    background-color: #fff;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+
+.portoflio .port-work
+{
+    
+    margin-bottom: 50px;
+
+}
+
+.portoflio i
+{
+    font-size: 40px;
+}
+
+
+
+
+.testmonial
+{
+    background-image: url(../devfolio/overlay-bg.jpg);
+    background-size:cover ;
+    background-attachment: fixed;
+    position: relative;
+    padding: 100px 0;
+
+
+}
+
+.overlay-test
+{
+    background-color:  #0078ff;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    
+
+}
+
+
+
+.carousel-indicators
+{
+    position: static;
+    margin-bottom: 10px;
+}
+
+.carousel-indicators li
+{
+    width: 20px;
+    height: 8px;
+    background-color: black;
+}
+
+.testmonial span
+{
+color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 1rem 0;
+    display: block;
+    font-size: 1.4rem;
+}
+
+.testmonial p
+{
+padding: 0 13rem;
+font-size: 1.25rem;
+    font-weight: 300;
+
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #fff;
+
+}
+
+.testmonial i
+{
+    color: #0078ff;
+    background-color: #fff;
+    margin-bottom: 15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 1.9;
+}
+
+
+
+
+
+
+.our-blog
+{
+    padding: 100px 0;
+}
+.our-blog h3
+{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1e1e1e;
+}
+
+.our-blog p
+{
+    color: #4e4e4e;
+    margin-bottom: 1rem;
+
+}
+
+
+.blog-card
+{
+    position: relative;
+}
+ .serv 
+{
+    background-color:   #0078ff;
+    width: 70px;
+    letter-spacing: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    color: #fff;
+    padding: 3px 5px;
+    border-radius: 4px;
+    text-align: center;
+    z-index: 999;
+}
+
+.our-blog .serv-1
+{
+    background-color:   #0078ff;
+    width: 110px;
+    margin: 0 auto;
+    letter-spacing: 1;
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    padding: 3px 5px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+
+.card a
+{
+    text-decoration: none;
+    color: #1e1e1e;
+    transition: all 0.5s ease-in-out;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.2;
+    
+}
+
+.card-footer a
+{
+    text-decoration: none;
+    color: #1e1e1e;
+    transition: all 0.5s ease-in-out;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.card a:hover
+{
+    color:#0078ff ;
+}
+
+.card-footer img
+{
+    width: 40px;
+    height: 40px;
+}
+
+.far-i
+{
+    margin-top: 7px;
+    color: #4e4e4e;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+@media (max-width:892px)
+{
+    .far
+    {
+        float:none;
+
+    }
+
+}
+
