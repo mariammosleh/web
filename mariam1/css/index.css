@@ -461,24 +461,60 @@ font-size: 1.25rem;
 }
 
 
-.blog-card
+.serv1
 {
     position: relative;
 }
- .serv 
+ /*.serv 
 {
     background-color:   #0078ff;
     width: 70px;
     letter-spacing: 1;
     position: absolute;
-    top: 50%;
-    left: 50%;
-
+left: 40%;
+top:94%;
     color: #fff;
     padding: 3px 5px;
     border-radius: 4px;
     text-align: center;
     z-index: 999;
+}*/
+
+
+/*.serv 
+{
+    background-color:   #0078ff;
+    letter-spacing: 1;
+    color: #fff;
+    padding: 3px 5px;
+    border-radius: 4px;
+    transform: translateY(-15px);
+    margin: auto;
+    width: 70px;
+
+  
+}*/
+
+.serv 
+{
+    letter-spacing: 1;
+    color: #fff;
+    padding: 3px 5px;
+    border-radius: 4px;
+    position: relative;
+
+  
+}
+.serv1
+{
+    position: absolute;
+    top: -15px;
+    background-color:   #0078ff;
+    letter-spacing: 1;
+    color: #fff;
+    padding: 3px 5px;
+    border-radius: 4px;
+
 }
 
 .our-blog .serv-1
@@ -547,3 +583,202 @@ font-size: 1.25rem;
 
 }
 
+.blog-card
+{
+ margin-bottom: 15px;
+}
+/* اما بصغر الشاشة بيكون شكله وحش والميديا مش شغالة عاوزة أعرف ليه*/
+
+
+
+
+.contact-us .arrow-top
+{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 15;
+    right: 15;
+padding-top: 11px;   
+    background-color:  #0078ff;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.contact-us a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.contact-us
+{
+    background-image: url(../devfolio/overlay-bg.jpg);
+    background-size:cover ;
+    background-attachment: fixed;
+    position: relative;
+    padding: 100px 0;
+
+
+}
+
+.contact-us .overlay-us
+{
+    background-color:  #0078ff;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    
+
+}
+
+.contact-us .contact-form
+{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.contact-us  h5
+{
+    position: relative;
+    color: #1e1e1e;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 32px;
+
+}
+
+
+.contact-us  h5::before
+{
+    content: '';
+    position:absolute;
+width: 100px;
+height: 4px;
+background-color: #0078ff;
+bottom: -15px;
+}
+
+.contact-us .cont-1
+{
+    background-color: #fff;
+    position: relative;
+    z-index: 3;
+    padding: 30px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+
+
+
+
+}
+
+.contact-form  button 
+ {
+    padding: .5rem 2rem;
+    font-size: 1.25rem ;
+    line-height: 1.5 ;
+    border-radius: 5rem ;
+    background-color: #0078ff;
+    color: #fff;
+    transition: all 500ms ease;
+    cursor: pointer;
+    border: 4px solid transparent;
+
+    }
+ 
+    .contact-form  button:hover
+    {
+        border: 4px solid #cde1f8 ;
+
+
+    }
+
+.contact-us .contact-form .form-cont
+{
+    margin-bottom: 20px;
+}
+
+
+
+.contact-us .contact-info 
+{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.contact-us .contact-info ul
+{
+    list-style: none;
+    padding-left:0 ;
+    display: inline-block;
+}
+
+.contact-us .contact-info ul .ico
+{
+    margin-right: 5px;
+    color: #0078ff ;
+}
+
+.contact-us .contact-info ul li
+{
+    margin-bottom: 10px;
+}
+
+.contact-us .contact-info p
+{
+    margin-top: 41px;
+}
+
+.contact-us .icon-social ul li 
+{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    line-height: 1.4;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px #0078ff;
+    transition: all 500ms ease;
+    text-align: center;
+    padding-top: 7px;
+overflow: hidden;
+}
+
+.contact-us .icon-social ul li a
+{
+    color: #1e1e1e;
+}
+
+.contact-us .icon-social ul li:hover 
+{
+background-color:#0078ff ;
+color: #fff;
+border: 4px solid #cde1f8 ;
+
+}
+
+/*ليه هنا لما باجي اعمل هوفر البوردر بياكل من الأيقون*/
+
+
+
+footer .container
+{
+    position: relative;
+    z-index: 4;
+    color: #fff;
+    margin-bottom: .3rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+footer .container span
+{
+    font-weight: bolder;
+}
