@@ -1,0 +1,698 @@
+
+
+
+body
+{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.icon-social
+{
+
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+.icon-social ul 
+{
+    
+   list-style: none;
+   margin-top: 10px;
+}
+
+.icon-social ul li i
+{
+    margin-left: 15px;
+    color: #fff;
+    font-size: 13px;
+    transition: all .3s ease;
+
+
+}
+
+.icon-social ul li i:hover 
+{
+    opacity: .8;
+}
+
+.icon-social ul li i a 
+{
+    text-decoration: none;
+
+}
+
+nav
+{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+   
+}
+
+.navbar-nav  li  a
+
+{
+    color: #fff;
+    text-decoration: none;
+
+}
+.navbar-collapse{
+
+
+font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.bg-black
+{
+    background-color: transparent;
+}
+
+  
+  .slide-text {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: #fff;
+      text-align: center;
+  }
+  .slide-text h1
+{
+    letter-spacing: -3px;
+    line-height: 1.25;
+    font-size: 100px;
+
+}
+.slide-text a
+{
+   text-decoration: none;
+   font-size: 20px;
+   color: #fff;
+   border: 1px solid #fff;
+   margin-left: 10px;
+   margin-top: 20px;
+}
+.slide-text .btn-m
+{
+    background-color: #00c3da;
+}
+.slide-text a
+  
+  .slide-text h4
+  {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px 0px;
+  }
+
+.about-us
+{
+    padding: 80px 0px;
+}
+
+.about-us h6
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    font-family: 'Poppins', sans-serif;
+    color: #1f1f1f;
+    line-height: 1.3;
+    text-align: center;
+
+}
+
+.about-us p
+{
+    font-size: 15px;
+    margin: 20px 0;
+    font-weight: 300;
+    text-align: center;
+    padding: 0px 30px;
+
+}
+
+ .btn-1
+{
+    border: 1px solid #dedede ;
+    padding: 10px 20px ;
+    color: #787878;
+    text-align: center;
+    margin-top: 25px;
+    transition: all .5s ease;
+
+
+}
+
+
+
+  .btn-1:hover 
+{
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+
+
+.about-info a
+{
+    text-decoration: none;
+    color: #1f1f1f;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 11px;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+}
+
+
+
+.about-info .activ-1
+{
+    border-bottom: 1px solid #1f1f1f;
+
+}
+
+.about-info p
+{
+    color: #787878;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.about .about-in
+{
+    color: #787878;
+
+    border-bottom: 2px solid rgba(160, 159, 159, 0.2);
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+
+
+}
+
+
+.our-team
+{
+    padding: 100px 0px;
+}
+.our-team h2
+{
+    position: relative;
+    z-index: 3;
+    font-weight: 700;
+    font-size: 38px;
+    letter-spacing: -1px;
+    font-family: 'Poppins', sans-serif;
+    color: #1f1f1f;
+    line-height: 1.3;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+
+}
+
+ .title
+{
+    margin: auto;
+
+}
+
+.our-team h2::before
+{
+    content:" c";
+    position: absolute;
+    left: 40%;
+    font-size: 2em;
+    opacity: .4;
+    position: absolute;
+    top: -0.5em;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #787878;
+
+}
+
+
+.our-team .title h4
+{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #787878;
+    line-height: 1.3;
+}
+
+.overlay-info ul
+{
+    list-style: none;
+    text-align: left;
+    padding-left:0px ;
+    margin-top: 10px;
+
+
+}
+
+.overlay-info ul li 
+{
+    
+    margin-left: 10px;
+
+}
+
+.overlay-info ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+
+}
+
+.icon-soc ul li:hover i 
+{
+    opacity: .7;
+}
+
+.overlay-info ul li i
+{
+    transition: all .3s ease;
+
+}
+
+.overlay-info 
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 20;
+    left: 0;
+    background-color: rgba(0, 195, 218, 0.9);
+    color: #fff;
+    opacity: 0;
+transition: all .3s ease;
+
+}
+.img-overlay
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.img-overlay:hover .overlay-info 
+{
+    opacity: 1;
+    top: 0;
+}
+
+.img-overlay h4, p
+{
+    font-size: 13px;
+}
+ 
+
+
+
+
+
+
+.work
+{
+    background-image: url(../images/mariam.jpeg);
+
+    background-size: cover;
+position: relative;
+
+    
+}
+/* مش شغال الكود*/
+
+.layer-work
+{
+    position:  absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.work-1 h4
+{
+    font-size: 13px;
+}
+
+.work-1 i
+{
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.we-do
+{
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+.we-do i
+{
+margin-right: 7px;
+}
+
+.we-do ul
+{
+    list-style: none;
+}
+
+.we-do ul li
+{
+    margin-bottom: 10px;
+}
+
+.we-do h2
+
+{
+    font-size: 38px;
+    letter-spacing: -1px;
+    font-weight: 700;
+   
+    margin-bottom: 10px;
+}
+
+.we-do h2::before
+{
+    content:" W";
+    position: absolute;
+    left: 5;
+    font-size: 2em;
+    opacity: .3;
+    position: absolute;
+    top: -0.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #787878;
+
+}
+
+.we-do p
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+
+.title-1
+{
+    margin: auto;
+}
+
+
+.title-1 h2::before
+{
+    content:" O";
+    position: absolute;
+    left: 35%;
+    font-size: 2em;
+    opacity: .2;
+    position: absolute;
+    top: -0.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #787878;
+
+}
+
+.title-1 h2
+{
+    position: relative;
+
+}
+
+.title-1 h2
+
+{
+    font-size: 38px;
+    letter-spacing: -1px;
+    font-weight: 700;
+   
+    margin-bottom: 10px;
+}
+.title-1 .h2-div
+{
+    width: 40px;
+    height: 2px;
+    background-color:black;
+    margin:auto;
+
+    transition: all .3s;
+}
+
+.title-1 .h2-div:hover
+{
+    width: 70px;
+}
+
+
+.products ul li
+{
+    display: inline-block;
+
+}
+.products ul
+{
+    list-style: none;
+    margin-bottom: 50px;
+    color: #787878;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-top:50px ;
+
+}
+.products ul li a
+{
+    text-decoration: none;
+    color: black;
+
+    padding: 8px 20px;
+    margin: 0px 5px;
+   
+   
+    font-weight: 500;
+    font-size: 13px;
+
+}
+
+.products ul .li-active
+{
+    color: #00c3da;
+    border: 1px solid  #00c3da;
+    border-radius: 5px;
+    
+}
+
+.image-pro a
+{
+    text-decoration: none;
+    color: black;
+    display: block;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+
+.image-pro
+{
+    overflow: hidden;
+    margin-bottom: 30px;
+
+}
+
+
+
+.img-pro img
+{
+    transition: all 1s;
+
+}
+
+
+.image-pro:hover img
+{
+    transform: scale(1.3,1.3);
+}
+
+.inf-pro
+{
+    background-color: #fff;
+    position: absolute;
+    top: auto;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    padding: 25px;
+    transition: all .5s .5s ease;
+    opacity: 0;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+
+}
+
+.img-pro:hover .inf-pro
+{
+    opacity: 1;
+}
+
+.inf-pro h3
+{
+opacity: 0;
+transition: all .5s .5s ;
+}
+
+.image-pro:hover h3
+{
+    opacity: 1;
+}
+
+.inf-pro p
+{
+opacity: 0;
+transition: all .5s 1s ;
+}
+
+.image-pro:hover p
+{
+    opacity: 1;
+}
+
+
+.prices-table h2::before
+{
+    content:" c";
+    position: absolute;
+    left: 47%;
+    font-size: 2em;
+    opacity: .2;
+    position: absolute;
+    top: -0.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #787878;
+
+}
+
+
+.prices-table h2
+{
+    position: relative;
+    font-size: 38px;
+    letter-spacing: -1px;
+    font-weight: 700;
+   
+    margin-bottom: 10px;
+}
+
+.prices-table p
+{
+      font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #787878;
+}
+
+.prices-table
+{
+    padding-top: 110px;
+    padding-bottom: 110px;
+    line-height: 1.5;
+    background-color: #f7f7f7;
+}
+
+.price-box
+{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+    margin: 10px auto 25px;
+}
+
+
+.price-box .badge1
+{
+    margin-left: 50px;
+    font-size: 12px;
+   background-color: #00c3da;
+
+}
+
+.price-box li
+{
+    padding: 8px 0;
+    color: #787878;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+ .box-3
+{
+    height: 410px;
+ 
+    margin-top: -1.5px;
+    
+
+}
+
+.price-box span
+{
+    font-size: 15px;
+    
+}
+.price-box h4
+{
+    font-size: 13px;
+    color: #1f1f1f;
+    line-height: 1.3;
+
+}
+
+.box-3 h3
+{
+    color: #00c3da;
+    font-size: 55px;
+    font-weight: 500;
+    letter-spacing: -3px;
+   
+}
+
+.price-box h3
+{
+   
+    font-size: 55px;
+    font-weight: 500;
+    letter-spacing: -3px;
+  
+}
+
+.price-box .btn-color
+{
+    background-color: #00c3da;
+    color: #fff;
+    margin-bottom: 10px;
+    transition: all .3s;
+
+}
+
+.price-box .btn-color:hover
+{
+    opacity: .8;
+}
