@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body
+{
+}
+
+.container
+{
+    width: 1000px;
+    margin: auto;
+}
+
+
+/*start navbar*/
+.header .slider
+{
+    height: 600px;
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+}
+.header .slider .info
+{
+    text-align: center;
+    padding-top: 200px;
+}
+
+.header .slider h1
+{
+    color: #fff;
+}
+
+.header .navbar{
+    background-color: #252f31;
+    color: #fff;
+    overflow: auto;
+    
+
+}
+.header .navbar h2{
+    float: left;
+    padding: 8px 0px;
+
+}
+.header .navbar h2 span
+{
+    color: #30be68 ;
+}
+
+.navbar ul
+{
+    list-style: none;
+    overflow: auto;
+    float: right;
+
+}
+.navbar ul li
+{
+    float: left;
+    margin: 0px 10px;
+    padding: 10px 0px;
+
+}
+
+.navbar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*END navbar*/
+/*start about*/
+
+.about
+{
+    overflow: auto;
+}
+.about .about-com
+{
+    width: 33.33333%;
+    float: left;
+}
+/*end about*/
