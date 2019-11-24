@@ -130,9 +130,22 @@ function xX()
     var inp11= parseInt (document.getElementById("inp11").value);
     var result8= document.getElementById("result8");
     var i;
-    
-   for (i=1; i<=inp11; i++)
+
+   for ( i=1; i<=inp11; i++)
    {
-    result8.innerHTML= i;
+    result8.innerHTML += (i+"</br>");
+   }
+}
+
+
+function multi()
+{
+    var inp12= parseInt (document.getElementById("inp12").value);
+    var result9= document.getElementById("result9");
+    var i;
+
+   for ( i=1; i<=12; i++)
+   {
+    result9.innerHTML += (i*inp12);
    }
 }
