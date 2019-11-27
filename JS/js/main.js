@@ -149,3 +149,118 @@ function multi()
     result9.innerHTML += (i*inp12);
    }
 }
+
+
+function evenNumber()
+{
+    var inp13= parseInt (document.getElementById("inp13").value);
+    var result10= document.getElementById("result10");
+    var i;
+
+   for ( i=0; i<=inp13; i++)
+   {
+       if(i%2==0){
+        result10.innerHTML+=i;
+       }
+   }
+}
+
+
+function powerNum()
+{
+    var inp14= parseInt (document.getElementById("inp14").value);
+    var inp15= parseInt (document.getElementById("inp15").value);
+
+    var result11= document.getElementById("result11");
+    var power=1;
+   
+   for ( var i=0; i<=inp15; i++)
+   {
+    power= power * inp14;
+      document.getElementById("result11").innerHTML=power;
+   }
+   
+
+}
+
+
+
+/*function avg()
+{
+    var inp16= (document.getElementById("inp16").value);
+    var result12= document.getElementById("result12");
+
+    var avrArr=[];
+   var newArr= avrArr.push(inp16.split(""));
+    
+    var summ=0;
+    for(var i=0; i<avrArr.length; i++){
+        summ+=avrArr[i];
+        result12.innerHTML=summ;
+        console.log(summ)
+    }
+
+    console.log( avrArr);
+
+}
+*/
+function avg()
+{
+   //var inp16= (document.getElementById("inp16").value);
+    var result12= document.getElementById("result12");
+
+    var avrArr=[1, 2, 4, 5, 6, 2, 2, 7, 8, 9];
+    var summ=0;
+    for(var i=0; i<avrArr.length; i++){
+        summ+=avrArr[i] ;
+        summ1=summ/10;
+        result12.innerHTML= summ1;
+        console.log(summ)
+    }
+    console.log( avrArr);
+
+}
+
+
+function reverse()
+{
+
+    var avrArr=[1, 2, 4, 5, 6, 2, 2, 7, 8, 9];
+    var ray= avrArr.reverse();
+    console.log(ray);
+
+
+    var newArray= [];
+    newArray.push(ray);
+    console.log(newArray);//ليه في الكونسول بيكتب ال length=1
+
+}
+
+function intger(inp17){
+    var inp17= parseInt (document.getElementById("inp17").value);
+
+    var result14= document.getElementById("result14");
+
+    result14.innerHTML=inp17;
+
+}
+
+
+
+function avgSum(x,y,z){
+
+    var sumFunc= (x+y+z)/3;
+   
+     document.getElementById("result15").innerHTML=sumFunc;
+
+}
+
+
+
+
+
+
+
+
+
+
