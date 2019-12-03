@@ -1,0 +1,25 @@
+
+
+body
+{
+    background-image: url(../images/background2.png);
+    background-size: 100% 100%;
+}
+
+.chicken-invaders
+{
+    width: 10%;
+    text-align: center;
+}
+
+
+.chicken-invaders img
+{
+    width: 100%;
+}
+
+.chicken-invaders #bullet
+{
+    width: 20%;
+}
+
